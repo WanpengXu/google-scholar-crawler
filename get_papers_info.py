@@ -16,7 +16,7 @@ class GoogleScholarCrawler():
         # 1. 修改 url：
         # eg. 获取 2023 年以来的被引：点进 CITED BY 页面，点击 Since 2023，复制 url 至此
         # eg. 获取 2024 年以来的 LLM 论文：搜索 LLM，点击 Since 2024，复制 url 至此
-        self.base_url = f'https://scholar.google.com/scholar?as_ylo=2024&q=Diffusion&hl=en&as_sdt=0,5'
+        self.base_url = 'https://scholar.google.com/scholar?as_ylo=2024&q=Diffusion&hl=en&as_sdt=0,5'
         
         # 2. 修改 Cookie：F12 进入控制台，刷新网页，点击 Network 选项，点击 Name 列中的第一项，右侧查看 Cookie
         # Cookie 的作用只是防止 Captcha，没有 Cookie 时偶尔也能运行，更换代理后需要重新获取 Cookie

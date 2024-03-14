@@ -2,7 +2,7 @@
 
 ## Description
 
-爬取谷歌学术网页显示的论文的信息。
+爬取谷歌学术网页显示的论文信息。
 
 Crawling information about papers displayed on Google Scholar web page.
 
